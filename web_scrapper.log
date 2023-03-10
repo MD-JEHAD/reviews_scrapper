@@ -1,0 +1,598 @@
+2023-03-09 20:51:57,399,INFO,[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.18.0.46:8080
+2023-03-09 20:51:57,399,INFO,[33mPress CTRL+C to quit[0m
+2023-03-09 20:53:29,948,INFO,[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.18.0.46:8080
+2023-03-09 20:53:29,948,INFO,[33mPress CTRL+C to quit[0m
+2023-03-09 20:54:27,683,INFO,[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.18.0.46:8080
+2023-03-09 20:54:27,684,INFO,[33mPress CTRL+C to quit[0m
+2023-03-09 20:54:51,826,INFO,[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.18.0.46:8080
+2023-03-09 20:54:51,826,INFO,[33mPress CTRL+C to quit[0m
+2023-03-09 20:55:00,642,INFO,[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.18.0.46:8080
+2023-03-09 20:55:00,642,INFO,[33mPress CTRL+C to quit[0m
+2023-03-09 20:55:34,487,INFO,[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.18.0.46:8080
+2023-03-09 20:55:34,487,INFO,[33mPress CTRL+C to quit[0m
+2023-03-09 20:56:05,845,INFO,Homepage showed
+2023-03-09 20:56:05,851,INFO,172.18.0.2 - - [09/Mar/2023 20:56:05] "GET / HTTP/1.1" 200 -
+2023-03-09 20:56:05,983,INFO,172.18.0.2 - - [09/Mar/2023 20:56:05] "[33mGET /static/css/main.css HTTP/1.1[0m" 404 -
+2023-03-09 20:56:06,064,INFO,172.18.0.2 - - [09/Mar/2023 20:56:06] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+2023-03-09 20:56:06,127,INFO,172.18.0.2 - - [09/Mar/2023 20:56:06] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2023-03-09 20:57:57,499,INFO,[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.18.0.46:8080
+2023-03-09 20:57:57,499,INFO,[33mPress CTRL+C to quit[0m
+2023-03-09 20:58:24,668,INFO,[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.18.0.46:8080
+2023-03-09 20:58:24,668,INFO,[33mPress CTRL+C to quit[0m
+2023-03-09 20:58:53,368,INFO,[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.18.0.46:8080
+2023-03-09 20:58:53,368,INFO,[33mPress CTRL+C to quit[0m
+2023-03-09 23:47:55,477,INFO,[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.18.0.46:8080
+2023-03-09 23:47:55,477,INFO,[33mPress CTRL+C to quit[0m
+2023-03-09 23:48:22,678,INFO,Homepage showed
+2023-03-09 23:48:22,685,INFO,172.18.0.2 - - [09/Mar/2023 23:48:22] "GET / HTTP/1.1" 200 -
+2023-03-09 23:48:22,776,INFO,172.18.0.2 - - [09/Mar/2023 23:48:22] "GET /static/css/main.css HTTP/1.1" 200 -
+2023-03-09 23:48:22,886,INFO,172.18.0.2 - - [09/Mar/2023 23:48:22] "GET /static/css/style.css HTTP/1.1" 200 -
+2023-03-09 23:48:36,661,ERROR,Exception on /review [POST]
+Traceback (most recent call last):
+  File "/config/.local/lib/python3.8/site-packages/flask/app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/config/.local/lib/python3.8/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/config/.local/lib/python3.8/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/config/.local/lib/python3.8/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/config/workspace/app.py", line 16, in web_scrapper
+    if method == "POST":
+NameError: name 'method' is not defined
+2023-03-09 23:48:36,663,INFO,172.18.0.2 - - [09/Mar/2023 23:48:36] "[35m[1mPOST /review HTTP/1.1[0m" 500 -
+2023-03-09 23:49:50,149,INFO,[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.18.0.46:8080
+2023-03-09 23:49:50,149,INFO,[33mPress CTRL+C to quit[0m
+2023-03-09 23:50:10,155,INFO,Homepage showed
+2023-03-09 23:50:10,163,INFO,172.18.0.2 - - [09/Mar/2023 23:50:10] "GET / HTTP/1.1" 200 -
+2023-03-09 23:50:10,255,INFO,172.18.0.2 - - [09/Mar/2023 23:50:10] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-03-09 23:50:10,368,INFO,172.18.0.2 - - [09/Mar/2023 23:50:10] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-03-09 23:50:17,058,ERROR,Exception on /review [POST]
+Traceback (most recent call last):
+  File "/config/.local/lib/python3.8/site-packages/flask/app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/config/.local/lib/python3.8/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/config/.local/lib/python3.8/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/config/.local/lib/python3.8/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/config/workspace/app.py", line 16, in web_scrapper
+    if method == "POST":
+NameError: name 'method' is not defined
+2023-03-09 23:50:17,059,INFO,172.18.0.2 - - [09/Mar/2023 23:50:17] "[35m[1mPOST /review HTTP/1.1[0m" 500 -
+2023-03-09 23:52:28,281,INFO,[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.18.0.46:8080
+2023-03-09 23:52:28,281,INFO,[33mPress CTRL+C to quit[0m
+2023-03-09 23:52:37,121,INFO,Homepage showed
+2023-03-09 23:52:37,128,INFO,172.18.0.2 - - [09/Mar/2023 23:52:37] "GET / HTTP/1.1" 200 -
+2023-03-09 23:52:37,215,INFO,172.18.0.2 - - [09/Mar/2023 23:52:37] "GET /static/css/main.css HTTP/1.1" 200 -
+2023-03-09 23:52:37,272,INFO,172.18.0.2 - - [09/Mar/2023 23:52:37] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-03-09 23:52:42,793,INFO,Reviews need to scrap for i phone 14
+2023-03-09 23:52:43,527,INFO,'method' object is not subscriptable
+2023-03-09 23:52:43,528,INFO,172.18.0.2 - - [09/Mar/2023 23:52:43] "POST /review HTTP/1.1" 200 -
+2023-03-09 23:58:50,094,INFO,[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.18.0.46:8080
+2023-03-09 23:58:50,094,INFO,[33mPress CTRL+C to quit[0m
+2023-03-09 23:59:08,210,INFO,Homepage showed
+2023-03-09 23:59:08,217,INFO,172.18.0.2 - - [09/Mar/2023 23:59:08] "GET / HTTP/1.1" 200 -
+2023-03-09 23:59:08,309,INFO,172.18.0.2 - - [09/Mar/2023 23:59:08] "GET /static/css/main.css HTTP/1.1" 200 -
+2023-03-09 23:59:08,416,INFO,172.18.0.2 - - [09/Mar/2023 23:59:08] "GET /static/css/style.css HTTP/1.1" 200 -
+2023-03-09 23:59:13,115,INFO,Reviews need to scrap for i phone 14
+2023-03-09 23:59:13,658,INFO,'method' object is not subscriptable
+2023-03-09 23:59:13,659,INFO,172.18.0.2 - - [09/Mar/2023 23:59:13] "POST /review HTTP/1.1" 200 -
+2023-03-10 00:01:03,818,INFO,[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.18.0.46:8080
+2023-03-10 00:01:03,818,INFO,[33mPress CTRL+C to quit[0m
+2023-03-10 00:01:19,224,INFO,Homepage showed
+2023-03-10 00:01:19,232,INFO,172.18.0.2 - - [10/Mar/2023 00:01:19] "GET / HTTP/1.1" 200 -
+2023-03-10 00:01:19,317,INFO,172.18.0.2 - - [10/Mar/2023 00:01:19] "GET /static/css/main.css HTTP/1.1" 200 -
+2023-03-10 00:01:19,423,INFO,172.18.0.2 - - [10/Mar/2023 00:01:19] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-03-10 00:01:32,653,INFO,Reviews need to scrap for iphone 13
+2023-03-10 00:01:33,469,INFO,'method' object is not subscriptable
+2023-03-10 00:01:33,469,INFO,172.18.0.2 - - [10/Mar/2023 00:01:33] "POST /review HTTP/1.1" 200 -
+2023-03-10 00:02:20,320,INFO,[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.18.0.46:8080
+2023-03-10 00:02:20,320,INFO,[33mPress CTRL+C to quit[0m
+2023-03-10 00:02:24,010,INFO,172.18.0.2 - - [10/Mar/2023 00:02:24] "GET /review HTTP/1.1" 200 -
+2023-03-10 00:02:24,094,INFO,172.18.0.2 - - [10/Mar/2023 00:02:24] "GET /static/css/main.css HTTP/1.1" 200 -
+2023-03-10 00:02:24,107,INFO,172.18.0.2 - - [10/Mar/2023 00:02:24] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-03-10 00:02:29,864,INFO,Reviews need to scrap for i phone 14
+2023-03-10 00:02:30,396,INFO,'method' object is not subscriptable
+2023-03-10 00:02:30,396,ERROR,Exception on /review [POST]
+Traceback (most recent call last):
+  File "/config/.local/lib/python3.8/site-packages/flask/app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/config/.local/lib/python3.8/site-packages/flask/app.py", line 1826, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "/config/.local/lib/python3.8/site-packages/flask/app.py", line 1845, in finalize_request
+    response = self.make_response(rv)
+  File "/config/.local/lib/python3.8/site-packages/flask/app.py", line 2173, in make_response
+    raise TypeError(
+TypeError: The view function did not return a valid response. The return type must be a string, dict, list, tuple with headers or status, Response instance, or WSGI callable, but it was a TypeError.
+2023-03-10 00:02:30,397,INFO,172.18.0.2 - - [10/Mar/2023 00:02:30] "[35m[1mPOST /review HTTP/1.1[0m" 500 -
+2023-03-10 00:14:23,873,INFO,[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.18.0.46:8080
+2023-03-10 00:14:23,873,INFO,[33mPress CTRL+C to quit[0m
+2023-03-10 00:15:39,394,INFO,172.18.0.2 - - [10/Mar/2023 00:15:39] "[31m[1mPOST / HTTP/1.1[0m" 405 -
+2023-03-10 00:20:43,493,INFO,Homepage showed
+2023-03-10 00:20:43,500,INFO,172.18.0.2 - - [10/Mar/2023 00:20:43] "GET / HTTP/1.1" 200 -
+2023-03-10 00:20:43,611,INFO,172.18.0.2 - - [10/Mar/2023 00:20:43] "GET /static/css/main.css HTTP/1.1" 200 -
+2023-03-10 00:20:43,678,INFO,172.18.0.2 - - [10/Mar/2023 00:20:43] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-03-10 00:20:50,398,INFO,Reviews need to scrap for i phone 14
+2023-03-10 00:20:50,931,INFO,'method' object is not subscriptable
+2023-03-10 00:20:50,932,INFO,172.18.0.2 - - [10/Mar/2023 00:20:50] "POST /review HTTP/1.1" 200 -
+2023-03-10 00:24:56,607,INFO,[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.18.0.46:8080
+2023-03-10 00:24:56,608,INFO,[33mPress CTRL+C to quit[0m
+2023-03-10 00:25:05,673,INFO,Homepage showed
+2023-03-10 00:25:05,681,INFO,172.18.0.2 - - [10/Mar/2023 00:25:05] "GET / HTTP/1.1" 200 -
+2023-03-10 00:25:05,782,INFO,172.18.0.2 - - [10/Mar/2023 00:25:05] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-03-10 00:25:05,840,INFO,172.18.0.2 - - [10/Mar/2023 00:25:05] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-03-10 00:25:09,762,INFO,Reviews need to scrap for i phone 14
+2023-03-10 00:25:10,536,ERROR,'method' object is not subscriptable
+Traceback (most recent call last):
+  File "/config/workspace/app.py", line 28, in web_scrapper
+    product_link = "https://www.flipkart.com"+ box.div.div.div.a.find_all["href"]
+TypeError: 'method' object is not subscriptable
+2023-03-10 00:25:10,536,INFO,172.18.0.2 - - [10/Mar/2023 00:25:10] "POST /review HTTP/1.1" 200 -
+2023-03-10 00:26:46,298,INFO,172.18.0.2 - - [10/Mar/2023 00:26:46] "GET /review HTTP/1.1" 200 -
+2023-03-10 00:26:46,378,INFO,172.18.0.2 - - [10/Mar/2023 00:26:46] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-03-10 00:26:46,485,INFO,172.18.0.2 - - [10/Mar/2023 00:26:46] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-03-10 00:26:51,676,INFO,Reviews need to scrap for i phone 14
+2023-03-10 00:26:52,239,ERROR,'method' object is not subscriptable
+Traceback (most recent call last):
+  File "/config/workspace/app.py", line 28, in web_scrapper
+    product_link = "https://www.flipkart.com"+ box.div.div.div.a.find_all["href"]
+TypeError: 'method' object is not subscriptable
+2023-03-10 00:26:52,239,INFO,172.18.0.2 - - [10/Mar/2023 00:26:52] "POST /review HTTP/1.1" 200 -
+2023-03-10 00:27:21,305,INFO,[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.18.0.46:8080
+2023-03-10 00:27:21,305,INFO,[33mPress CTRL+C to quit[0m
+2023-03-10 00:27:26,687,INFO,172.18.0.2 - - [10/Mar/2023 00:27:26] "GET /review HTTP/1.1" 200 -
+2023-03-10 00:27:26,776,INFO,172.18.0.2 - - [10/Mar/2023 00:27:26] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-03-10 00:27:26,777,INFO,172.18.0.2 - - [10/Mar/2023 00:27:26] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-03-10 00:27:32,423,INFO,Reviews need to scrap for i phone 12
+2023-03-10 00:27:32,969,ERROR,'method' object is not subscriptable
+Traceback (most recent call last):
+  File "/config/workspace/app.py", line 28, in web_scrapper
+    product_link = "https://www.flipkart.com"+ box.div.div.div.a.find_all["href"]
+TypeError: 'method' object is not subscriptable
+2023-03-10 00:27:32,970,INFO,172.18.0.2 - - [10/Mar/2023 00:27:32] "POST /review HTTP/1.1" 200 -
+2023-03-10 00:30:17,949,INFO,[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.18.0.46:8080
+2023-03-10 00:30:17,949,INFO,[33mPress CTRL+C to quit[0m
+2023-03-10 00:30:24,883,INFO,Homepage showed
+2023-03-10 00:30:24,890,INFO,172.18.0.2 - - [10/Mar/2023 00:30:24] "GET / HTTP/1.1" 200 -
+2023-03-10 00:30:24,983,INFO,172.18.0.2 - - [10/Mar/2023 00:30:24] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-03-10 00:30:25,091,INFO,172.18.0.2 - - [10/Mar/2023 00:30:25] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-03-10 00:30:28,443,INFO,Reviews need to scrap for i phone 14
+2023-03-10 00:30:29,920,ERROR,'Response' object has no attribute 'read'
+Traceback (most recent call last):
+  File "/config/workspace/app.py", line 30, in web_scrapper
+    product_details = product_req.read()
+AttributeError: 'Response' object has no attribute 'read'
+2023-03-10 00:30:29,921,INFO,172.18.0.2 - - [10/Mar/2023 00:30:29] "POST /review HTTP/1.1" 200 -
+2023-03-10 00:34:28,444,INFO,[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.18.0.46:8080
+2023-03-10 00:34:28,444,INFO,[33mPress CTRL+C to quit[0m
+2023-03-10 00:34:37,019,INFO,Homepage showed
+2023-03-10 00:34:37,026,INFO,172.18.0.2 - - [10/Mar/2023 00:34:37] "GET / HTTP/1.1" 200 -
+2023-03-10 00:34:37,119,INFO,172.18.0.2 - - [10/Mar/2023 00:34:37] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-03-10 00:34:37,226,INFO,172.18.0.2 - - [10/Mar/2023 00:34:37] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-03-10 00:34:41,652,INFO,Reviews need to scrap for i phone 14
+2023-03-10 00:34:42,762,ERROR,'NoneType' object has no attribute 'append'
+Traceback (most recent call last):
+  File "/config/workspace/app.py", line 61, in web_scrapper
+    reviews = reviews.append(mydict)
+AttributeError: 'NoneType' object has no attribute 'append'
+2023-03-10 00:34:42,763,INFO,172.18.0.2 - - [10/Mar/2023 00:34:42] "POST /review HTTP/1.1" 200 -
+2023-03-10 00:39:28,353,INFO,[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.18.0.46:8080
+2023-03-10 00:39:28,353,INFO,[33mPress CTRL+C to quit[0m
+2023-03-10 00:39:35,671,INFO,Homepage showed
+2023-03-10 00:39:35,679,INFO,172.18.0.2 - - [10/Mar/2023 00:39:35] "GET / HTTP/1.1" 200 -
+2023-03-10 00:39:35,795,INFO,172.18.0.2 - - [10/Mar/2023 00:39:35] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-03-10 00:39:35,901,INFO,172.18.0.2 - - [10/Mar/2023 00:39:35] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-03-10 00:39:39,006,INFO,Reviews need to scrap for i phone 14
+2023-03-10 00:39:40,390,ERROR,'NoneType' object has no attribute 'append'
+Traceback (most recent call last):
+  File "/config/workspace/app.py", line 62, in web_scrapper
+    reviews = reviews.append(mydict)
+AttributeError: 'NoneType' object has no attribute 'append'
+2023-03-10 00:39:40,391,INFO,172.18.0.2 - - [10/Mar/2023 00:39:40] "POST /review HTTP/1.1" 200 -
+2023-03-10 00:40:27,635,INFO,[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.18.0.46:8080
+2023-03-10 00:40:27,635,INFO,[33mPress CTRL+C to quit[0m
+2023-03-10 00:40:32,941,INFO,Homepage showed
+2023-03-10 00:40:32,948,INFO,172.18.0.2 - - [10/Mar/2023 00:40:32] "GET / HTTP/1.1" 200 -
+2023-03-10 00:40:33,077,INFO,172.18.0.2 - - [10/Mar/2023 00:40:33] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-03-10 00:40:33,077,INFO,172.18.0.2 - - [10/Mar/2023 00:40:33] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-03-10 00:40:40,118,INFO,Reviews need to scrap for i phone 14
+2023-03-10 00:40:41,621,ERROR,'str' object has no attribute 'text'
+Traceback (most recent call last):
+  File "/config/workspace/app.py", line 31, in web_scrapper
+    product_html = bs(product_req.text,"html.parser")
+AttributeError: 'str' object has no attribute 'text'
+2023-03-10 00:40:41,622,INFO,172.18.0.2 - - [10/Mar/2023 00:40:41] "POST /review HTTP/1.1" 200 -
+2023-03-10 00:50:45,306,INFO,[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.18.0.46:8080
+2023-03-10 00:50:45,307,INFO,[33mPress CTRL+C to quit[0m
+2023-03-10 00:50:51,686,INFO,Homepage showed
+2023-03-10 00:50:51,693,INFO,172.18.0.2 - - [10/Mar/2023 00:50:51] "GET / HTTP/1.1" 200 -
+2023-03-10 00:50:51,788,INFO,172.18.0.2 - - [10/Mar/2023 00:50:51] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-03-10 00:50:51,895,INFO,172.18.0.2 - - [10/Mar/2023 00:50:51] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-03-10 00:50:55,654,INFO,Reviews need to scrap for i phone 14
+2023-03-10 00:50:56,691,ERROR,'bytes' object has no attribute 'text'
+Traceback (most recent call last):
+  File "/config/workspace/app.py", line 31, in web_scrapper
+    product_html = bs(product_req.text,"html.parser")
+AttributeError: 'bytes' object has no attribute 'text'
+2023-03-10 00:50:56,692,INFO,172.18.0.2 - - [10/Mar/2023 00:50:56] "POST /review HTTP/1.1" 200 -
+2023-03-10 00:53:05,166,INFO,[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.18.0.46:8080
+2023-03-10 00:53:05,166,INFO,[33mPress CTRL+C to quit[0m
+2023-03-10 00:53:11,827,INFO,Homepage showed
+2023-03-10 00:53:11,834,INFO,172.18.0.2 - - [10/Mar/2023 00:53:11] "GET / HTTP/1.1" 200 -
+2023-03-10 00:53:11,927,INFO,172.18.0.2 - - [10/Mar/2023 00:53:11] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-03-10 00:53:11,985,INFO,172.18.0.2 - - [10/Mar/2023 00:53:11] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-03-10 00:53:16,651,INFO,Reviews need to scrap for i phone 14
+2023-03-10 00:53:18,179,ERROR,'NoneType' object has no attribute 'append'
+Traceback (most recent call last):
+  File "/config/workspace/app.py", line 62, in web_scrapper
+    reviews = reviews.append(mydict)
+AttributeError: 'NoneType' object has no attribute 'append'
+2023-03-10 00:53:18,180,INFO,172.18.0.2 - - [10/Mar/2023 00:53:18] "POST /review HTTP/1.1" 200 -
+2023-03-10 00:54:34,273,INFO,[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.18.0.46:8080
+2023-03-10 00:54:34,273,INFO,[33mPress CTRL+C to quit[0m
+2023-03-10 00:54:38,490,INFO,Homepage showed
+2023-03-10 00:54:38,497,INFO,172.18.0.2 - - [10/Mar/2023 00:54:38] "GET / HTTP/1.1" 200 -
+2023-03-10 00:54:38,597,INFO,172.18.0.2 - - [10/Mar/2023 00:54:38] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-03-10 00:54:38,703,INFO,172.18.0.2 - - [10/Mar/2023 00:54:38] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-03-10 00:54:42,141,INFO,Reviews need to scrap for i phone 14
+2023-03-10 00:54:43,560,INFO,out of reviewers
+2023-03-10 00:54:43,560,INFO,out of rating
+2023-03-10 00:54:43,561,INFO,Out of comments
+2023-03-10 00:54:43,561,INFO,Out of comment
+2023-03-10 00:54:43,561,INFO,The final data is: [{'Product': 'i phone 14', 'Name': 'Rahul Prasad ', 'Rating': '5', 'CommentHead': 'Fabulous!', 'Comment': 'Best smart phone under this price range compare to other phones in 2023 if you see overall build quality, performance and Camera with autofocus and video action mode are awesome50% extra RAM compared to iPhone 13 and other more features. Best time to upgrade to iPhone 14 . I am so happy See Low light photos are amazing..READ MORE'}, {'Product': 'i phone 14', 'Name': 'Sankhadip Mazumder', 'Rating': '4', 'CommentHead': 'Good choice', 'Comment': "It's a apple device .. that means you get the good old ios . No performance issue , supper ram and power management . My slightly distasteful remark would be on its camera . Dont get me wrong , its great but the colors seems to be vibrant by default which I'm not really a fan of. Also the low light performance of the front camera is not that sharp . I used to own a pixel 3 and its front camera output seems to be better than iphone 13's . But overall the camera is good and it will do the job. ...READ MORE"}, {'Product': 'i phone 14', 'Name': 'Flipkart Customer', 'Rating': '5', 'CommentHead': 'Best in the market!', 'Comment': 'Excellent smart phone, Good battery backup and performance is very good, Good camera quality.READ MORE'}, {'Product': 'i phone 14', 'Name': 'Flipkart Customer', 'Rating': '5', 'CommentHead': 'Terrific', 'Comment': 'Damn such a great phone. Camera is really good, battery lasts long enough, super smooth even though its just 60 hz XDR display. Videos with action mode on are insanely stable and crisp.The whole apple environment itself is so seamless. I shifted from android to iPhone and it barely took any time since I had iPad and a mac already. With a just a few clicks the phone was ready to go.READ MORE'}, {'Product': 'i phone 14', 'Name': 'Feecon Behera', 'Rating': '5', 'CommentHead': 'Must buy!', 'Comment': 'Just awesome!!I switch to iPhone 14 from iPhone 12. The powerful chipset gives you smooth performance. No lags, no fancy UI, just delivers the best of it. Camera is best. Battery giving a full day. Speaker sounds wide and clear. Must buy!!READ MORE'}, {'Product': 'i phone 14', 'Name': 'Samaresh  Tikader', 'Rating': '5', 'CommentHead': 'Fabulous!', 'Comment': 'Happy to have iPhone 14. Wonderful phone specially because of Powerful camera😍, perfect screen size and potentially battery life make it worthy.READ MORE'}, {'Product': 'i phone 14', 'Name': 'Ashutosh Kumar', 'Rating': '5', 'CommentHead': 'Classy product', 'Comment': 'Great phone with great capabilities 🔥Excellent camera 📸Processor same as my 13pro New blue colour is awesome ❤️I have :- 14pro . 13pro . 12. 12mini . Also new this one iphone 14 . One thing is common in all have , there is no lag till the date. The one thing I always said it is what it is🔥🔥READ MORE'}, {'Product': 'i phone 14', 'Name': 'Sunder Singh ', 'Rating': '5', 'CommentHead': 'Highly recommended', 'Comment': 'I am so happy to have first time i phone 14. My experience is outstanding to have this phone.But i wanted to have i phone 18 fortunately i have this now.READ MORE'}, {'Product': 'i phone 14', 'Name': 'sagar dimble', 'Rating': '4', 'CommentHead': 'Nice product', 'Comment': 'camera is not as expected at evening as pictures are so dull and not bright.so much dissipointed when compare camera even with s21fe or one plus nord or other premium phones.at bright sunlight or in a bright light at night pictures are so good in portrait mode.selfies in low light are terrible. looks like camera under 10k phone.battery is good and last for day easily.performance is so good.display may be if 90hz it will be good at this price range.READ MORE'}, {'Product': 'i phone 14', 'Name': 'Kunal Dhamija', 'Rating': '5', 'CommentHead': 'Classy product', 'Comment': "Totally in love with my new iphone 14. Battery backup is amazing which I never expected from Apple to be very honest.Built quality is excellent and it looks premium. Camera quality is excellent as well. True to life color reproduction, Indoor conditions amazing, night photos are good, facial tones are very good, day clicks are amazing. In short it's an amazing exp. Selfie cam also produces very good quality images.READ MORE"}, {'Product': 'i phone 14', 'Name': 'out of reviewers', 'Rating': 'out of rating', 'CommentHead': 'Out of comments', 'Comment': 'Out of comment'}]
+2023-03-10 00:54:43,565,INFO,172.18.0.2 - - [10/Mar/2023 00:54:43] "POST /review HTTP/1.1" 200 -
+2023-03-10 00:54:43,690,INFO,172.18.0.2 - - [10/Mar/2023 00:54:43] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-03-10 00:54:43,692,INFO,172.18.0.2 - - [10/Mar/2023 00:54:43] "[33mGET /style.css HTTP/1.1[0m" 404 -
+2023-03-10 00:56:14,336,INFO,[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.18.0.46:8080
+2023-03-10 00:56:14,337,INFO,[33mPress CTRL+C to quit[0m
+2023-03-10 00:56:20,103,INFO,Homepage showed
+2023-03-10 00:56:20,110,INFO,172.18.0.2 - - [10/Mar/2023 00:56:20] "GET / HTTP/1.1" 200 -
+2023-03-10 00:56:20,213,INFO,172.18.0.2 - - [10/Mar/2023 00:56:20] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-03-10 00:56:20,320,INFO,172.18.0.2 - - [10/Mar/2023 00:56:20] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-03-10 00:56:23,528,INFO,Reviews need to scrap for i phone 14
+2023-03-10 00:56:24,660,INFO,out of reviewers
+2023-03-10 00:56:24,661,INFO,out of rating
+2023-03-10 00:56:24,661,INFO,Out of comments
+2023-03-10 00:56:24,661,INFO,Out of comment
+2023-03-10 00:56:24,661,INFO,The final data is: [{'Product': 'i phone 14', 'Name': 'Rahul Prasad ', 'Rating': '5', 'CommentHead': 'Fabulous!', 'Comment': 'Best smart phone under this price range compare to other phones in 2023 if you see overall build quality, performance and Camera with autofocus and video action mode are awesome50% extra RAM compared to iPhone 13 and other more features. Best time to upgrade to iPhone 14 . I am so happy See Low light photos are amazing..READ MORE'}, {'Product': 'i phone 14', 'Name': 'Sankhadip Mazumder', 'Rating': '4', 'CommentHead': 'Good choice', 'Comment': "It's a apple device .. that means you get the good old ios . No performance issue , supper ram and power management . My slightly distasteful remark would be on its camera . Dont get me wrong , its great but the colors seems to be vibrant by default which I'm not really a fan of. Also the low light performance of the front camera is not that sharp . I used to own a pixel 3 and its front camera output seems to be better than iphone 13's . But overall the camera is good and it will do the job. ...READ MORE"}, {'Product': 'i phone 14', 'Name': 'Flipkart Customer', 'Rating': '5', 'CommentHead': 'Best in the market!', 'Comment': 'Excellent smart phone, Good battery backup and performance is very good, Good camera quality.READ MORE'}, {'Product': 'i phone 14', 'Name': 'Flipkart Customer', 'Rating': '5', 'CommentHead': 'Terrific', 'Comment': 'Damn such a great phone. Camera is really good, battery lasts long enough, super smooth even though its just 60 hz XDR display. Videos with action mode on are insanely stable and crisp.The whole apple environment itself is so seamless. I shifted from android to iPhone and it barely took any time since I had iPad and a mac already. With a just a few clicks the phone was ready to go.READ MORE'}, {'Product': 'i phone 14', 'Name': 'Feecon Behera', 'Rating': '5', 'CommentHead': 'Must buy!', 'Comment': 'Just awesome!!I switch to iPhone 14 from iPhone 12. The powerful chipset gives you smooth performance. No lags, no fancy UI, just delivers the best of it. Camera is best. Battery giving a full day. Speaker sounds wide and clear. Must buy!!READ MORE'}, {'Product': 'i phone 14', 'Name': 'Samaresh  Tikader', 'Rating': '5', 'CommentHead': 'Fabulous!', 'Comment': 'Happy to have iPhone 14. Wonderful phone specially because of Powerful camera😍, perfect screen size and potentially battery life make it worthy.READ MORE'}, {'Product': 'i phone 14', 'Name': 'Ashutosh Kumar', 'Rating': '5', 'CommentHead': 'Classy product', 'Comment': 'Great phone with great capabilities 🔥Excellent camera 📸Processor same as my 13pro New blue colour is awesome ❤️I have :- 14pro . 13pro . 12. 12mini . Also new this one iphone 14 . One thing is common in all have , there is no lag till the date. The one thing I always said it is what it is🔥🔥READ MORE'}, {'Product': 'i phone 14', 'Name': 'Sunder Singh ', 'Rating': '5', 'CommentHead': 'Highly recommended', 'Comment': 'I am so happy to have first time i phone 14. My experience is outstanding to have this phone.But i wanted to have i phone 18 fortunately i have this now.READ MORE'}, {'Product': 'i phone 14', 'Name': 'sagar dimble', 'Rating': '4', 'CommentHead': 'Nice product', 'Comment': 'camera is not as expected at evening as pictures are so dull and not bright.so much dissipointed when compare camera even with s21fe or one plus nord or other premium phones.at bright sunlight or in a bright light at night pictures are so good in portrait mode.selfies in low light are terrible. looks like camera under 10k phone.battery is good and last for day easily.performance is so good.display may be if 90hz it will be good at this price range.READ MORE'}, {'Product': 'i phone 14', 'Name': 'Kunal Dhamija', 'Rating': '5', 'CommentHead': 'Classy product', 'Comment': "Totally in love with my new iphone 14. Battery backup is amazing which I never expected from Apple to be very honest.Built quality is excellent and it looks premium. Camera quality is excellent as well. True to life color reproduction, Indoor conditions amazing, night photos are good, facial tones are very good, day clicks are amazing. In short it's an amazing exp. Selfie cam also produces very good quality images.READ MORE"}, {'Product': 'i phone 14', 'Name': 'out of reviewers', 'Rating': 'out of rating', 'CommentHead': 'Out of comments', 'Comment': 'Out of comment'}]
+2023-03-10 00:56:24,666,INFO,172.18.0.2 - - [10/Mar/2023 00:56:24] "POST /review HTTP/1.1" 200 -
+2023-03-10 00:56:24,785,INFO,172.18.0.2 - - [10/Mar/2023 00:56:24] "[33mGET /style.css HTTP/1.1[0m" 404 -
+2023-03-10 00:56:24,787,INFO,172.18.0.2 - - [10/Mar/2023 00:56:24] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-03-10 01:02:44,363,INFO,[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.18.0.46:8080
+2023-03-10 01:02:44,363,INFO,[33mPress CTRL+C to quit[0m
+2023-03-10 01:03:03,182,INFO,Homepage showed
+2023-03-10 01:03:03,191,INFO,172.18.0.2 - - [10/Mar/2023 01:03:03] "GET / HTTP/1.1" 200 -
+2023-03-10 01:03:03,310,INFO,172.18.0.2 - - [10/Mar/2023 01:03:03] "GET /static/css/main.css HTTP/1.1" 200 -
+2023-03-10 01:03:03,416,INFO,172.18.0.2 - - [10/Mar/2023 01:03:03] "GET /static/css/style.css HTTP/1.1" 200 -
+2023-03-10 01:03:14,386,INFO,Reviews need to scrap for laptop
+2023-03-10 01:03:15,807,INFO,out of rating
+2023-03-10 01:03:15,809,INFO,out of rating
+2023-03-10 01:03:15,810,INFO,out of rating
+2023-03-10 01:03:15,813,INFO,out of rating
+2023-03-10 01:03:15,813,INFO,out of reviewers
+2023-03-10 01:03:15,813,INFO,out of rating
+2023-03-10 01:03:15,813,INFO,Out of comments
+2023-03-10 01:03:15,813,INFO,Out of comment
+2023-03-10 01:03:15,814,INFO,The final data is: [{'Product': 'laptop', 'Name': 'Samir Kumar', 'Rating': '3', 'CommentHead': 'Good', 'Comment': 'Device works faster but design and quality is not expected to be downgraded by dell. U can see above the screen glares and led rays visible which looks very cheap. 😱READ MORE'}, {'Product': 'laptop', 'Name': 'Vishnu Vijay', 'Rating': '5', 'CommentHead': 'Must buy!', 'Comment': 'Very nic product ... good configurationREAD MORE'}, {'Product': 'laptop', 'Name': 'Bhushan Lokakshi', 'Rating': '4', 'CommentHead': 'Worth the money', 'Comment': 'All is well, screen, display, sound, mic, camera.READ MORE'}, {'Product': 'laptop', 'Name': 'mohd shamim', 'Rating': 'out of rating', 'CommentHead': 'Horrible', 'Comment': 'Flipkart and seller both are making foolish to their customer Bad experience with this product as on the product page mentioned it has backlit keyboard but which product I have received not have backlit keyboard features. If any one have upper level management team email ID or contact details, please DM hereREAD MORE'}, {'Product': 'laptop', 'Name': 'Akash  Mondal', 'Rating': '5', 'CommentHead': 'Classy product', 'Comment': 'Nice productREAD MORE'}, {'Product': 'laptop', 'Name': 'Flipkart Customer', 'Rating': 'out of rating', 'CommentHead': 'Utterly Disappointed', 'Comment': "The product is very bad....within a day it's screen started to stuck....and teams is not working in it....!!READ MORE"}, {'Product': 'laptop', 'Name': 'Flipkart Customer', 'Rating': 'out of rating', 'CommentHead': 'Very poor', 'Comment': 'Very ordinaryREAD MORE'}, {'Product': 'laptop', 'Name': 'sunil kumar', 'Rating': '4', 'CommentHead': 'Value-for-money', 'Comment': 'Very nice 👍 I am happyREAD MORE'}, {'Product': 'laptop', 'Name': 'Aditya  Sharma ', 'Rating': '5', 'CommentHead': 'Terrific purchase', 'Comment': 'The product is good as per the budget range.READ MORE'}, {'Product': 'laptop', 'Name': 'Babita Pandey', 'Rating': 'out of rating', 'CommentHead': 'Worst experience ever!', 'Comment': 'Heats up faster.poor review from my endREAD MORE'}, {'Product': 'laptop', 'Name': 'out of reviewers', 'Rating': 'out of rating', 'CommentHead': 'Out of comments', 'Comment': 'Out of comment'}]
+2023-03-10 01:03:15,818,INFO,172.18.0.2 - - [10/Mar/2023 01:03:15] "POST /review HTTP/1.1" 200 -
+2023-03-10 01:03:15,932,INFO,172.18.0.2 - - [10/Mar/2023 01:03:15] "[33mGET /style.css HTTP/1.1[0m" 404 -
+2023-03-10 01:03:16,094,INFO,172.18.0.2 - - [10/Mar/2023 01:03:16] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-03-10 01:11:58,907,INFO,[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.18.0.46:8080
+2023-03-10 01:11:58,907,INFO,[33mPress CTRL+C to quit[0m
+2023-03-10 01:12:16,846,INFO,Homepage showed
+2023-03-10 01:12:16,852,INFO,172.18.0.2 - - [10/Mar/2023 01:12:16] "GET / HTTP/1.1" 200 -
+2023-03-10 01:12:16,970,INFO,172.18.0.2 - - [10/Mar/2023 01:12:16] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-03-10 01:12:17,079,INFO,172.18.0.2 - - [10/Mar/2023 01:12:17] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-03-10 01:12:27,534,INFO,Reviews need to scrap for i phone 14
+2023-03-10 01:12:29,216,INFO,out of reviewers
+2023-03-10 01:12:29,216,INFO,out of rating
+2023-03-10 01:12:29,216,INFO,Out of comments
+2023-03-10 01:12:29,216,INFO,Out of comment
+2023-03-10 01:12:29,217,INFO,The final data is: [{'Product': 'i phone 14', 'Name': 'Rahul Prasad ', 'Rating': '5', 'CommentHead': 'Fabulous!', 'Comment': 'Best smart phone under this price range compare to other phones in 2023 if you see overall build quality, performance and Camera with autofocus and video action mode are awesome50% extra RAM compared to iPhone 13 and other more features. Best time to upgrade to iPhone 14 . I am so happy See Low light photos are amazing..READ MORE'}, {'Product': 'i phone 14', 'Name': 'Sankhadip Mazumder', 'Rating': '4', 'CommentHead': 'Good choice', 'Comment': "It's a apple device .. that means you get the good old ios . No performance issue , supper ram and power management . My slightly distasteful remark would be on its camera . Dont get me wrong , its great but the colors seems to be vibrant by default which I'm not really a fan of. Also the low light performance of the front camera is not that sharp . I used to own a pixel 3 and its front camera output seems to be better than iphone 13's . But overall the camera is good and it will do the job. ...READ MORE"}, {'Product': 'i phone 14', 'Name': 'Flipkart Customer', 'Rating': '5', 'CommentHead': 'Best in the market!', 'Comment': 'Excellent smart phone, Good battery backup and performance is very good, Good camera quality.READ MORE'}, {'Product': 'i phone 14', 'Name': 'Flipkart Customer', 'Rating': '5', 'CommentHead': 'Terrific', 'Comment': 'Damn such a great phone. Camera is really good, battery lasts long enough, super smooth even though its just 60 hz XDR display. Videos with action mode on are insanely stable and crisp.The whole apple environment itself is so seamless. I shifted from android to iPhone and it barely took any time since I had iPad and a mac already. With a just a few clicks the phone was ready to go.READ MORE'}, {'Product': 'i phone 14', 'Name': 'Feecon Behera', 'Rating': '5', 'CommentHead': 'Must buy!', 'Comment': 'Just awesome!!I switch to iPhone 14 from iPhone 12. The powerful chipset gives you smooth performance. No lags, no fancy UI, just delivers the best of it. Camera is best. Battery giving a full day. Speaker sounds wide and clear. Must buy!!READ MORE'}, {'Product': 'i phone 14', 'Name': 'Samaresh  Tikader', 'Rating': '5', 'CommentHead': 'Fabulous!', 'Comment': 'Happy to have iPhone 14. Wonderful phone specially because of Powerful camera😍, perfect screen size and potentially battery life make it worthy.READ MORE'}, {'Product': 'i phone 14', 'Name': 'Ashutosh Kumar', 'Rating': '5', 'CommentHead': 'Classy product', 'Comment': 'Great phone with great capabilities 🔥Excellent camera 📸Processor same as my 13pro New blue colour is awesome ❤️I have :- 14pro . 13pro . 12. 12mini . Also new this one iphone 14 . One thing is common in all have , there is no lag till the date. The one thing I always said it is what it is🔥🔥READ MORE'}, {'Product': 'i phone 14', 'Name': 'Sunder Singh ', 'Rating': '5', 'CommentHead': 'Highly recommended', 'Comment': 'I am so happy to have first time i phone 14. My experience is outstanding to have this phone.But i wanted to have i phone 18 fortunately i have this now.READ MORE'}, {'Product': 'i phone 14', 'Name': 'sagar dimble', 'Rating': '4', 'CommentHead': 'Nice product', 'Comment': 'camera is not as expected at evening as pictures are so dull and not bright.so much dissipointed when compare camera even with s21fe or one plus nord or other premium phones.at bright sunlight or in a bright light at night pictures are so good in portrait mode.selfies in low light are terrible. looks like camera under 10k phone.battery is good and last for day easily.performance is so good.display may be if 90hz it will be good at this price range.READ MORE'}, {'Product': 'i phone 14', 'Name': 'Kunal Dhamija', 'Rating': '5', 'CommentHead': 'Classy product', 'Comment': "Totally in love with my new iphone 14. Battery backup is amazing which I never expected from Apple to be very honest.Built quality is excellent and it looks premium. Camera quality is excellent as well. True to life color reproduction, Indoor conditions amazing, night photos are good, facial tones are very good, day clicks are amazing. In short it's an amazing exp. Selfie cam also produces very good quality images.READ MORE"}, {'Product': 'i phone 14', 'Name': 'out of reviewers', 'Rating': 'out of rating', 'CommentHead': 'Out of comments', 'Comment': 'Out of comment'}]
+2023-03-10 01:12:29,221,INFO,172.18.0.2 - - [10/Mar/2023 01:12:29] "POST /review HTTP/1.1" 200 -
+2023-03-10 01:12:29,347,INFO,172.18.0.2 - - [10/Mar/2023 01:12:29] "[33mGET /style.css HTTP/1.1[0m" 404 -
+2023-03-10 01:12:29,349,INFO,172.18.0.2 - - [10/Mar/2023 01:12:29] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-03-10 01:14:52,209,INFO,[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.18.0.46:8080
+2023-03-10 01:14:52,209,INFO,[33mPress CTRL+C to quit[0m
+2023-03-10 01:14:55,323,INFO,Homepage showed
+2023-03-10 01:14:55,330,INFO,172.18.0.2 - - [10/Mar/2023 01:14:55] "GET / HTTP/1.1" 200 -
+2023-03-10 01:14:55,415,INFO,172.18.0.2 - - [10/Mar/2023 01:14:55] "GET /static/css/main.css HTTP/1.1" 200 -
+2023-03-10 01:14:55,527,INFO,172.18.0.2 - - [10/Mar/2023 01:14:55] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-03-10 01:14:55,591,INFO,172.18.0.2 - - [10/Mar/2023 01:14:55] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2023-03-10 01:14:59,378,INFO,Reviews need to scrap for i phone 14
+2023-03-10 01:15:00,718,INFO,out of reviewers
+2023-03-10 01:15:00,718,INFO,out of rating
+2023-03-10 01:15:00,718,INFO,Out of comments
+2023-03-10 01:15:00,718,INFO,Out of comment
+2023-03-10 01:15:00,718,INFO,The final data is: [{'Product': 'i phone 14', 'Name': 'Rahul Prasad ', 'Rating': '5', 'CommentHead': 'Fabulous!', 'Comment': 'Best smart phone under this price range compare to other phones in 2023 if you see overall build quality, performance and Camera with autofocus and video action mode are awesome50% extra RAM compared to iPhone 13 and other more features. Best time to upgrade to iPhone 14 . I am so happy See Low light photos are amazing..READ MORE'}, {'Product': 'i phone 14', 'Name': 'Sankhadip Mazumder', 'Rating': '4', 'CommentHead': 'Good choice', 'Comment': "It's a apple device .. that means you get the good old ios . No performance issue , supper ram and power management . My slightly distasteful remark would be on its camera . Dont get me wrong , its great but the colors seems to be vibrant by default which I'm not really a fan of. Also the low light performance of the front camera is not that sharp . I used to own a pixel 3 and its front camera output seems to be better than iphone 13's . But overall the camera is good and it will do the job. ...READ MORE"}, {'Product': 'i phone 14', 'Name': 'Flipkart Customer', 'Rating': '5', 'CommentHead': 'Best in the market!', 'Comment': 'Excellent smart phone, Good battery backup and performance is very good, Good camera quality.READ MORE'}, {'Product': 'i phone 14', 'Name': 'Flipkart Customer', 'Rating': '5', 'CommentHead': 'Terrific', 'Comment': 'Damn such a great phone. Camera is really good, battery lasts long enough, super smooth even though its just 60 hz XDR display. Videos with action mode on are insanely stable and crisp.The whole apple environment itself is so seamless. I shifted from android to iPhone and it barely took any time since I had iPad and a mac already. With a just a few clicks the phone was ready to go.READ MORE'}, {'Product': 'i phone 14', 'Name': 'Feecon Behera', 'Rating': '5', 'CommentHead': 'Must buy!', 'Comment': 'Just awesome!!I switch to iPhone 14 from iPhone 12. The powerful chipset gives you smooth performance. No lags, no fancy UI, just delivers the best of it. Camera is best. Battery giving a full day. Speaker sounds wide and clear. Must buy!!READ MORE'}, {'Product': 'i phone 14', 'Name': 'Samaresh  Tikader', 'Rating': '5', 'CommentHead': 'Fabulous!', 'Comment': 'Happy to have iPhone 14. Wonderful phone specially because of Powerful camera😍, perfect screen size and potentially battery life make it worthy.READ MORE'}, {'Product': 'i phone 14', 'Name': 'Ashutosh Kumar', 'Rating': '5', 'CommentHead': 'Classy product', 'Comment': 'Great phone with great capabilities 🔥Excellent camera 📸Processor same as my 13pro New blue colour is awesome ❤️I have :- 14pro . 13pro . 12. 12mini . Also new this one iphone 14 . One thing is common in all have , there is no lag till the date. The one thing I always said it is what it is🔥🔥READ MORE'}, {'Product': 'i phone 14', 'Name': 'Sunder Singh ', 'Rating': '5', 'CommentHead': 'Highly recommended', 'Comment': 'I am so happy to have first time i phone 14. My experience is outstanding to have this phone.But i wanted to have i phone 18 fortunately i have this now.READ MORE'}, {'Product': 'i phone 14', 'Name': 'sagar dimble', 'Rating': '4', 'CommentHead': 'Nice product', 'Comment': 'camera is not as expected at evening as pictures are so dull and not bright.so much dissipointed when compare camera even with s21fe or one plus nord or other premium phones.at bright sunlight or in a bright light at night pictures are so good in portrait mode.selfies in low light are terrible. looks like camera under 10k phone.battery is good and last for day easily.performance is so good.display may be if 90hz it will be good at this price range.READ MORE'}, {'Product': 'i phone 14', 'Name': 'Kunal Dhamija', 'Rating': '5', 'CommentHead': 'Classy product', 'Comment': "Totally in love with my new iphone 14. Battery backup is amazing which I never expected from Apple to be very honest.Built quality is excellent and it looks premium. Camera quality is excellent as well. True to life color reproduction, Indoor conditions amazing, night photos are good, facial tones are very good, day clicks are amazing. In short it's an amazing exp. Selfie cam also produces very good quality images.READ MORE"}, {'Product': 'i phone 14', 'Name': 'out of reviewers', 'Rating': 'out of rating', 'CommentHead': 'Out of comments', 'Comment': 'Out of comment'}]
+2023-03-10 01:15:00,723,INFO,172.18.0.2 - - [10/Mar/2023 01:15:00] "POST /review HTTP/1.1" 200 -
+2023-03-10 01:15:00,863,INFO,172.18.0.2 - - [10/Mar/2023 01:15:00] "[33mGET /style.css HTTP/1.1[0m" 404 -
+2023-03-10 01:15:01,037,INFO,172.18.0.2 - - [10/Mar/2023 01:15:01] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-03-10 01:16:19,026,INFO,[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.18.0.46:8080
+2023-03-10 01:16:19,026,INFO,[33mPress CTRL+C to quit[0m
+2023-03-10 01:16:27,960,INFO,Homepage showed
+2023-03-10 01:16:27,968,INFO,172.18.0.2 - - [10/Mar/2023 01:16:27] "GET / HTTP/1.1" 200 -
+2023-03-10 01:16:28,069,INFO,172.18.0.2 - - [10/Mar/2023 01:16:28] "GET /static/css/main.css HTTP/1.1" 200 -
+2023-03-10 01:16:28,240,INFO,172.18.0.2 - - [10/Mar/2023 01:16:28] "GET /static/css/style.css HTTP/1.1" 200 -
+2023-03-10 01:16:31,481,INFO,Reviews need to scrap for i phone 14
+2023-03-10 01:16:33,038,INFO,out of reviewers
+2023-03-10 01:16:33,038,INFO,out of rating
+2023-03-10 01:16:33,039,INFO,Out of comments
+2023-03-10 01:16:33,039,INFO,Out of comment
+2023-03-10 01:16:33,039,INFO,The final data is: [{'Product': 'i phone 14', 'Name': 'Rahul Prasad ', 'Rating': '5', 'CommentHead': 'Fabulous!', 'Comment': 'Best smart phone under this price range compare to other phones in 2023 if you see overall build quality, performance and Camera with autofocus and video action mode are awesome50% extra RAM compared to iPhone 13 and other more features. Best time to upgrade to iPhone 14 . I am so happy See Low light photos are amazing..READ MORE'}, {'Product': 'i phone 14', 'Name': 'Sankhadip Mazumder', 'Rating': '4', 'CommentHead': 'Good choice', 'Comment': "It's a apple device .. that means you get the good old ios . No performance issue , supper ram and power management . My slightly distasteful remark would be on its camera . Dont get me wrong , its great but the colors seems to be vibrant by default which I'm not really a fan of. Also the low light performance of the front camera is not that sharp . I used to own a pixel 3 and its front camera output seems to be better than iphone 13's . But overall the camera is good and it will do the job. ...READ MORE"}, {'Product': 'i phone 14', 'Name': 'Flipkart Customer', 'Rating': '5', 'CommentHead': 'Best in the market!', 'Comment': 'Excellent smart phone, Good battery backup and performance is very good, Good camera quality.READ MORE'}, {'Product': 'i phone 14', 'Name': 'Flipkart Customer', 'Rating': '5', 'CommentHead': 'Terrific', 'Comment': 'Damn such a great phone. Camera is really good, battery lasts long enough, super smooth even though its just 60 hz XDR display. Videos with action mode on are insanely stable and crisp.The whole apple environment itself is so seamless. I shifted from android to iPhone and it barely took any time since I had iPad and a mac already. With a just a few clicks the phone was ready to go.READ MORE'}, {'Product': 'i phone 14', 'Name': 'Feecon Behera', 'Rating': '5', 'CommentHead': 'Must buy!', 'Comment': 'Just awesome!!I switch to iPhone 14 from iPhone 12. The powerful chipset gives you smooth performance. No lags, no fancy UI, just delivers the best of it. Camera is best. Battery giving a full day. Speaker sounds wide and clear. Must buy!!READ MORE'}, {'Product': 'i phone 14', 'Name': 'Samaresh  Tikader', 'Rating': '5', 'CommentHead': 'Fabulous!', 'Comment': 'Happy to have iPhone 14. Wonderful phone specially because of Powerful camera😍, perfect screen size and potentially battery life make it worthy.READ MORE'}, {'Product': 'i phone 14', 'Name': 'Ashutosh Kumar', 'Rating': '5', 'CommentHead': 'Classy product', 'Comment': 'Great phone with great capabilities 🔥Excellent camera 📸Processor same as my 13pro New blue colour is awesome ❤️I have :- 14pro . 13pro . 12. 12mini . Also new this one iphone 14 . One thing is common in all have , there is no lag till the date. The one thing I always said it is what it is🔥🔥READ MORE'}, {'Product': 'i phone 14', 'Name': 'Sunder Singh ', 'Rating': '5', 'CommentHead': 'Highly recommended', 'Comment': 'I am so happy to have first time i phone 14. My experience is outstanding to have this phone.But i wanted to have i phone 18 fortunately i have this now.READ MORE'}, {'Product': 'i phone 14', 'Name': 'sagar dimble', 'Rating': '4', 'CommentHead': 'Nice product', 'Comment': 'camera is not as expected at evening as pictures are so dull and not bright.so much dissipointed when compare camera even with s21fe or one plus nord or other premium phones.at bright sunlight or in a bright light at night pictures are so good in portrait mode.selfies in low light are terrible. looks like camera under 10k phone.battery is good and last for day easily.performance is so good.display may be if 90hz it will be good at this price range.READ MORE'}, {'Product': 'i phone 14', 'Name': 'Kunal Dhamija', 'Rating': '5', 'CommentHead': 'Classy product', 'Comment': "Totally in love with my new iphone 14. Battery backup is amazing which I never expected from Apple to be very honest.Built quality is excellent and it looks premium. Camera quality is excellent as well. True to life color reproduction, Indoor conditions amazing, night photos are good, facial tones are very good, day clicks are amazing. In short it's an amazing exp. Selfie cam also produces very good quality images.READ MORE"}, {'Product': 'i phone 14', 'Name': 'out of reviewers', 'Rating': 'out of rating', 'CommentHead': 'Out of comments', 'Comment': 'Out of comment'}]
+2023-03-10 01:16:33,043,INFO,172.18.0.2 - - [10/Mar/2023 01:16:33] "POST /review HTTP/1.1" 200 -
+2023-03-10 01:16:33,170,INFO,172.18.0.2 - - [10/Mar/2023 01:16:33] "[33mGET /style.css HTTP/1.1[0m" 404 -
+2023-03-10 01:16:33,172,INFO,172.18.0.2 - - [10/Mar/2023 01:16:33] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-03-10 20:10:49,913,INFO,[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.18.0.15:8080
+2023-03-10 20:10:49,913,INFO,[33mPress CTRL+C to quit[0m
+2023-03-10 20:11:02,165,INFO,Homepage showed
+2023-03-10 20:11:02,172,INFO,172.18.0.2 - - [10/Mar/2023 20:11:02] "GET / HTTP/1.1" 200 -
+2023-03-10 20:11:02,410,INFO,172.18.0.2 - - [10/Mar/2023 20:11:02] "GET /static/css/main.css HTTP/1.1" 200 -
+2023-03-10 20:11:02,576,INFO,172.18.0.2 - - [10/Mar/2023 20:11:02] "GET /static/css/style.css HTTP/1.1" 200 -
+2023-03-10 20:11:08,686,INFO,Reviews need to scrap for i phone 14
+2023-03-10 20:11:10,094,INFO,out of reviewers
+2023-03-10 20:11:10,094,INFO,out of rating
+2023-03-10 20:11:10,094,INFO,Out of comments
+2023-03-10 20:11:10,094,INFO,Out of comment
+2023-03-10 20:11:10,094,INFO,The final data is: [{'Product': 'i phone 14', 'Name': 'Rahul Prasad ', 'Rating': '5', 'CommentHead': 'Fabulous!', 'Comment': 'Best smart phone under this price range compare to other phones in 2023 if you see overall build quality, performance and Camera with autofocus and video action mode are awesome50% extra RAM compared to iPhone 13 and other more features. Best time to upgrade to iPhone 14 . I am so happy See Low light photos are amazing..READ MORE'}, {'Product': 'i phone 14', 'Name': 'Sankhadip Mazumder', 'Rating': '4', 'CommentHead': 'Good choice', 'Comment': "It's a apple device .. that means you get the good old ios . No performance issue , supper ram and power management . My slightly distasteful remark would be on its camera . Dont get me wrong , its great but the colors seems to be vibrant by default which I'm not really a fan of. Also the low light performance of the front camera is not that sharp . I used to own a pixel 3 and its front camera output seems to be better than iphone 13's . But overall the camera is good and it will do the job. ...READ MORE"}, {'Product': 'i phone 14', 'Name': 'Flipkart Customer', 'Rating': '5', 'CommentHead': 'Best in the market!', 'Comment': 'Excellent smart phone, Good battery backup and performance is very good, Good camera quality.READ MORE'}, {'Product': 'i phone 14', 'Name': 'Flipkart Customer', 'Rating': '5', 'CommentHead': 'Terrific', 'Comment': 'Damn such a great phone. Camera is really good, battery lasts long enough, super smooth even though its just 60 hz XDR display. Videos with action mode on are insanely stable and crisp.The whole apple environment itself is so seamless. I shifted from android to iPhone and it barely took any time since I had iPad and a mac already. With a just a few clicks the phone was ready to go.READ MORE'}, {'Product': 'i phone 14', 'Name': 'Samaresh  Tikader', 'Rating': '5', 'CommentHead': 'Fabulous!', 'Comment': 'Happy to have iPhone 14. Wonderful phone specially because of Powerful camera😍, perfect screen size and potentially battery life make it worthy.READ MORE'}, {'Product': 'i phone 14', 'Name': 'Feecon Behera', 'Rating': '5', 'CommentHead': 'Must buy!', 'Comment': 'Just awesome!!I switch to iPhone 14 from iPhone 12. The powerful chipset gives you smooth performance. No lags, no fancy UI, just delivers the best of it. Camera is best. Battery giving a full day. Speaker sounds wide and clear. Must buy!!READ MORE'}, {'Product': 'i phone 14', 'Name': 'Ashutosh Kumar', 'Rating': '5', 'CommentHead': 'Classy product', 'Comment': 'Great phone with great capabilities 🔥Excellent camera 📸Processor same as my 13pro New blue colour is awesome ❤️I have :- 14pro . 13pro . 12. 12mini . Also new this one iphone 14 . One thing is common in all have , there is no lag till the date. The one thing I always said it is what it is🔥🔥READ MORE'}, {'Product': 'i phone 14', 'Name': 'Sunder Singh ', 'Rating': '5', 'CommentHead': 'Highly recommended', 'Comment': 'I am so happy to have first time i phone 14. My experience is outstanding to have this phone.But i wanted to have i phone 18 fortunately i have this now.READ MORE'}, {'Product': 'i phone 14', 'Name': 'sagar dimble', 'Rating': '4', 'CommentHead': 'Nice product', 'Comment': 'camera is not as expected at evening as pictures are so dull and not bright.so much dissipointed when compare camera even with s21fe or one plus nord or other premium phones.at bright sunlight or in a bright light at night pictures are so good in portrait mode.selfies in low light are terrible. looks like camera under 10k phone.battery is good and last for day easily.performance is so good.display may be if 90hz it will be good at this price range.READ MORE'}, {'Product': 'i phone 14', 'Name': 'Kunal Dhamija', 'Rating': '5', 'CommentHead': 'Classy product', 'Comment': "Totally in love with my new iphone 14. Battery backup is amazing which I never expected from Apple to be very honest.Built quality is excellent and it looks premium. Camera quality is excellent as well. True to life color reproduction, Indoor conditions amazing, night photos are good, facial tones are very good, day clicks are amazing. In short it's an amazing exp. Selfie cam also produces very good quality images.READ MORE"}, {'Product': 'i phone 14', 'Name': 'out of reviewers', 'Rating': 'out of rating', 'CommentHead': 'Out of comments', 'Comment': 'Out of comment'}]
+2023-03-10 20:11:10,143,ERROR,bad auth : authentication failed, full error: {'ok': 0, 'errmsg': 'bad auth : authentication failed', 'code': 8000, 'codeName': 'AtlasError'}
+Traceback (most recent call last):
+  File "/config/workspace/app.py", line 68, in web_scrapper
+    c.insert_many(reviews)
+  File "/config/.local/lib/python3.8/site-packages/pymongo/_csot.py", line 105, in csot_wrapper
+    return func(self, *args, **kwargs)
+  File "/config/.local/lib/python3.8/site-packages/pymongo/collection.py", line 714, in insert_many
+    blk.execute(write_concern, session=session)
+  File "/config/.local/lib/python3.8/site-packages/pymongo/bulk.py", line 513, in execute
+    return self.execute_command(generator, write_concern, session)
+  File "/config/.local/lib/python3.8/site-packages/pymongo/bulk.py", line 391, in execute_command
+    client._retry_with_session(self.is_retryable, retryable_bulk, s, self)
+  File "/config/.local/lib/python3.8/site-packages/pymongo/mongo_client.py", line 1349, in _retry_with_session
+    return self._retry_internal(retryable, func, session, bulk)
+  File "/config/.local/lib/python3.8/site-packages/pymongo/_csot.py", line 105, in csot_wrapper
+    return func(self, *args, **kwargs)
+  File "/config/.local/lib/python3.8/site-packages/pymongo/mongo_client.py", line 1381, in _retry_internal
+    with self._get_socket(server, session) as sock_info:
+  File "/usr/lib/python3.8/contextlib.py", line 113, in __enter__
+    return next(self.gen)
+  File "/config/.local/lib/python3.8/site-packages/pymongo/mongo_client.py", line 1217, in _get_socket
+    with server.get_socket(handler=err_handler) as sock_info:
+  File "/usr/lib/python3.8/contextlib.py", line 113, in __enter__
+    return next(self.gen)
+  File "/config/.local/lib/python3.8/site-packages/pymongo/pool.py", line 1407, in get_socket
+    sock_info = self._get_socket(handler=handler)
+  File "/config/.local/lib/python3.8/site-packages/pymongo/pool.py", line 1520, in _get_socket
+    sock_info = self.connect(handler=handler)
+  File "/config/.local/lib/python3.8/site-packages/pymongo/pool.py", line 1378, in connect
+    sock_info.authenticate()
+  File "/config/.local/lib/python3.8/site-packages/pymongo/pool.py", line 870, in authenticate
+    auth.authenticate(creds, self)
+  File "/config/.local/lib/python3.8/site-packages/pymongo/auth.py", line 549, in authenticate
+    auth_func(credentials, sock_info)
+  File "/config/.local/lib/python3.8/site-packages/pymongo/auth.py", line 475, in _authenticate_default
+    return _authenticate_scram(credentials, sock_info, "SCRAM-SHA-1")
+  File "/config/.local/lib/python3.8/site-packages/pymongo/auth.py", line 241, in _authenticate_scram
+    res = sock_info.command(source, cmd)
+  File "/config/.local/lib/python3.8/site-packages/pymongo/pool.py", line 767, in command
+    return command(
+  File "/config/.local/lib/python3.8/site-packages/pymongo/network.py", line 166, in command
+    helpers._check_command_response(
+  File "/config/.local/lib/python3.8/site-packages/pymongo/helpers.py", line 181, in _check_command_response
+    raise OperationFailure(errmsg, code, response, max_wire_version)
+pymongo.errors.OperationFailure: bad auth : authentication failed, full error: {'ok': 0, 'errmsg': 'bad auth : authentication failed', 'code': 8000, 'codeName': 'AtlasError'}
+2023-03-10 20:11:10,145,INFO,172.18.0.2 - - [10/Mar/2023 20:11:10] "POST /review HTTP/1.1" 200 -
+2023-03-10 20:32:55,119,INFO,[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.18.0.15:8080
+2023-03-10 20:32:55,119,INFO,[33mPress CTRL+C to quit[0m
+2023-03-10 20:33:15,067,INFO,Homepage showed
+2023-03-10 20:33:15,074,INFO,172.18.0.2 - - [10/Mar/2023 20:33:15] "GET / HTTP/1.1" 200 -
+2023-03-10 20:33:15,172,INFO,172.18.0.2 - - [10/Mar/2023 20:33:15] "GET /static/css/main.css HTTP/1.1" 200 -
+2023-03-10 20:33:15,236,INFO,172.18.0.2 - - [10/Mar/2023 20:33:15] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-03-10 20:33:18,839,INFO,Reviews need to scrap for i phone 14
+2023-03-10 20:33:20,204,INFO,out of reviewers
+2023-03-10 20:33:20,204,INFO,out of rating
+2023-03-10 20:33:20,205,INFO,Out of comments
+2023-03-10 20:33:20,205,INFO,Out of comment
+2023-03-10 20:33:20,205,INFO,The final data is: [{'Product': 'i phone 14', 'Name': 'Rahul Prasad ', 'Rating': '5', 'CommentHead': 'Fabulous!', 'Comment': 'Best smart phone under this price range compare to other phones in 2023 if you see overall build quality, performance and Camera with autofocus and video action mode are awesome50% extra RAM compared to iPhone 13 and other more features. Best time to upgrade to iPhone 14 . I am so happy See Low light photos are amazing..READ MORE'}, {'Product': 'i phone 14', 'Name': 'Sankhadip Mazumder', 'Rating': '4', 'CommentHead': 'Good choice', 'Comment': "It's a apple device .. that means you get the good old ios . No performance issue , supper ram and power management . My slightly distasteful remark would be on its camera . Dont get me wrong , its great but the colors seems to be vibrant by default which I'm not really a fan of. Also the low light performance of the front camera is not that sharp . I used to own a pixel 3 and its front camera output seems to be better than iphone 13's . But overall the camera is good and it will do the job. ...READ MORE"}, {'Product': 'i phone 14', 'Name': 'Flipkart Customer', 'Rating': '5', 'CommentHead': 'Best in the market!', 'Comment': 'Excellent smart phone, Good battery backup and performance is very good, Good camera quality.READ MORE'}, {'Product': 'i phone 14', 'Name': 'Flipkart Customer', 'Rating': '5', 'CommentHead': 'Terrific', 'Comment': 'Damn such a great phone. Camera is really good, battery lasts long enough, super smooth even though its just 60 hz XDR display. Videos with action mode on are insanely stable and crisp.The whole apple environment itself is so seamless. I shifted from android to iPhone and it barely took any time since I had iPad and a mac already. With a just a few clicks the phone was ready to go.READ MORE'}, {'Product': 'i phone 14', 'Name': 'Samaresh  Tikader', 'Rating': '5', 'CommentHead': 'Fabulous!', 'Comment': 'Happy to have iPhone 14. Wonderful phone specially because of Powerful camera😍, perfect screen size and potentially battery life make it worthy.READ MORE'}, {'Product': 'i phone 14', 'Name': 'Feecon Behera', 'Rating': '5', 'CommentHead': 'Must buy!', 'Comment': 'Just awesome!!I switch to iPhone 14 from iPhone 12. The powerful chipset gives you smooth performance. No lags, no fancy UI, just delivers the best of it. Camera is best. Battery giving a full day. Speaker sounds wide and clear. Must buy!!READ MORE'}, {'Product': 'i phone 14', 'Name': 'Ashutosh Kumar', 'Rating': '5', 'CommentHead': 'Classy product', 'Comment': 'Great phone with great capabilities 🔥Excellent camera 📸Processor same as my 13pro New blue colour is awesome ❤️I have :- 14pro . 13pro . 12. 12mini . Also new this one iphone 14 . One thing is common in all have , there is no lag till the date. The one thing I always said it is what it is🔥🔥READ MORE'}, {'Product': 'i phone 14', 'Name': 'Sunder Singh ', 'Rating': '5', 'CommentHead': 'Highly recommended', 'Comment': 'I am so happy to have first time i phone 14. My experience is outstanding to have this phone.But i wanted to have i phone 18 fortunately i have this now.READ MORE'}, {'Product': 'i phone 14', 'Name': 'sagar dimble', 'Rating': '4', 'CommentHead': 'Nice product', 'Comment': 'camera is not as expected at evening as pictures are so dull and not bright.so much dissipointed when compare camera even with s21fe or one plus nord or other premium phones.at bright sunlight or in a bright light at night pictures are so good in portrait mode.selfies in low light are terrible. looks like camera under 10k phone.battery is good and last for day easily.performance is so good.display may be if 90hz it will be good at this price range.READ MORE'}, {'Product': 'i phone 14', 'Name': 'Kunal Dhamija', 'Rating': '5', 'CommentHead': 'Classy product', 'Comment': "Totally in love with my new iphone 14. Battery backup is amazing which I never expected from Apple to be very honest.Built quality is excellent and it looks premium. Camera quality is excellent as well. True to life color reproduction, Indoor conditions amazing, night photos are good, facial tones are very good, day clicks are amazing. In short it's an amazing exp. Selfie cam also produces very good quality images.READ MORE"}, {'Product': 'i phone 14', 'Name': 'out of reviewers', 'Rating': 'out of rating', 'CommentHead': 'Out of comments', 'Comment': 'Out of comment'}]
+2023-03-10 20:33:20,345,ERROR,bad auth : authentication failed, full error: {'ok': 0, 'errmsg': 'bad auth : authentication failed', 'code': 8000, 'codeName': 'AtlasError'}
+Traceback (most recent call last):
+  File "/config/workspace/app.py", line 68, in web_scrapper
+    c.insert_many(reviews)
+  File "/config/.local/lib/python3.8/site-packages/pymongo/_csot.py", line 105, in csot_wrapper
+    return func(self, *args, **kwargs)
+  File "/config/.local/lib/python3.8/site-packages/pymongo/collection.py", line 714, in insert_many
+    blk.execute(write_concern, session=session)
+  File "/config/.local/lib/python3.8/site-packages/pymongo/bulk.py", line 513, in execute
+    return self.execute_command(generator, write_concern, session)
+  File "/config/.local/lib/python3.8/site-packages/pymongo/bulk.py", line 391, in execute_command
+    client._retry_with_session(self.is_retryable, retryable_bulk, s, self)
+  File "/config/.local/lib/python3.8/site-packages/pymongo/mongo_client.py", line 1349, in _retry_with_session
+    return self._retry_internal(retryable, func, session, bulk)
+  File "/config/.local/lib/python3.8/site-packages/pymongo/_csot.py", line 105, in csot_wrapper
+    return func(self, *args, **kwargs)
+  File "/config/.local/lib/python3.8/site-packages/pymongo/mongo_client.py", line 1381, in _retry_internal
+    with self._get_socket(server, session) as sock_info:
+  File "/usr/lib/python3.8/contextlib.py", line 113, in __enter__
+    return next(self.gen)
+  File "/config/.local/lib/python3.8/site-packages/pymongo/mongo_client.py", line 1217, in _get_socket
+    with server.get_socket(handler=err_handler) as sock_info:
+  File "/usr/lib/python3.8/contextlib.py", line 113, in __enter__
+    return next(self.gen)
+  File "/config/.local/lib/python3.8/site-packages/pymongo/pool.py", line 1407, in get_socket
+    sock_info = self._get_socket(handler=handler)
+  File "/config/.local/lib/python3.8/site-packages/pymongo/pool.py", line 1520, in _get_socket
+    sock_info = self.connect(handler=handler)
+  File "/config/.local/lib/python3.8/site-packages/pymongo/pool.py", line 1378, in connect
+    sock_info.authenticate()
+  File "/config/.local/lib/python3.8/site-packages/pymongo/pool.py", line 870, in authenticate
+    auth.authenticate(creds, self)
+  File "/config/.local/lib/python3.8/site-packages/pymongo/auth.py", line 549, in authenticate
+    auth_func(credentials, sock_info)
+  File "/config/.local/lib/python3.8/site-packages/pymongo/auth.py", line 475, in _authenticate_default
+    return _authenticate_scram(credentials, sock_info, "SCRAM-SHA-1")
+  File "/config/.local/lib/python3.8/site-packages/pymongo/auth.py", line 241, in _authenticate_scram
+    res = sock_info.command(source, cmd)
+  File "/config/.local/lib/python3.8/site-packages/pymongo/pool.py", line 767, in command
+    return command(
+  File "/config/.local/lib/python3.8/site-packages/pymongo/network.py", line 166, in command
+    helpers._check_command_response(
+  File "/config/.local/lib/python3.8/site-packages/pymongo/helpers.py", line 181, in _check_command_response
+    raise OperationFailure(errmsg, code, response, max_wire_version)
+pymongo.errors.OperationFailure: bad auth : authentication failed, full error: {'ok': 0, 'errmsg': 'bad auth : authentication failed', 'code': 8000, 'codeName': 'AtlasError'}
+2023-03-10 20:33:20,347,INFO,172.18.0.2 - - [10/Mar/2023 20:33:20] "POST /review HTTP/1.1" 200 -
+2023-03-10 20:34:19,754,INFO,[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.18.0.15:8080
+2023-03-10 20:34:19,755,INFO,[33mPress CTRL+C to quit[0m
+2023-03-10 20:40:27,450,INFO,[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.18.0.15:8080
+2023-03-10 20:40:27,450,INFO,[33mPress CTRL+C to quit[0m
+2023-03-10 20:40:38,718,INFO,Homepage showed
+2023-03-10 20:40:38,725,INFO,172.18.0.2 - - [10/Mar/2023 20:40:38] "GET / HTTP/1.1" 200 -
+2023-03-10 20:40:38,828,INFO,172.18.0.2 - - [10/Mar/2023 20:40:38] "GET /static/css/main.css HTTP/1.1" 200 -
+2023-03-10 20:40:38,893,INFO,172.18.0.2 - - [10/Mar/2023 20:40:38] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-03-10 20:40:43,002,INFO,Reviews need to scrap for i phone 14
+2023-03-10 20:40:44,202,INFO,out of reviewers
+2023-03-10 20:40:44,202,INFO,out of rating
+2023-03-10 20:40:44,203,INFO,Out of comments
+2023-03-10 20:40:44,203,INFO,Out of comment
+2023-03-10 20:40:44,203,INFO,The final data is: [{'Product': 'i phone 14', 'Name': 'Rahul Prasad ', 'Rating': '5', 'CommentHead': 'Fabulous!', 'Comment': 'Best smart phone under this price range compare to other phones in 2023 if you see overall build quality, performance and Camera with autofocus and video action mode are awesome50% extra RAM compared to iPhone 13 and other more features. Best time to upgrade to iPhone 14 . I am so happy See Low light photos are amazing..READ MORE'}, {'Product': 'i phone 14', 'Name': 'Sankhadip Mazumder', 'Rating': '4', 'CommentHead': 'Good choice', 'Comment': "It's a apple device .. that means you get the good old ios . No performance issue , supper ram and power management . My slightly distasteful remark would be on its camera . Dont get me wrong , its great but the colors seems to be vibrant by default which I'm not really a fan of. Also the low light performance of the front camera is not that sharp . I used to own a pixel 3 and its front camera output seems to be better than iphone 13's . But overall the camera is good and it will do the job. ...READ MORE"}, {'Product': 'i phone 14', 'Name': 'Flipkart Customer', 'Rating': '5', 'CommentHead': 'Best in the market!', 'Comment': 'Excellent smart phone, Good battery backup and performance is very good, Good camera quality.READ MORE'}, {'Product': 'i phone 14', 'Name': 'Flipkart Customer', 'Rating': '5', 'CommentHead': 'Terrific', 'Comment': 'Damn such a great phone. Camera is really good, battery lasts long enough, super smooth even though its just 60 hz XDR display. Videos with action mode on are insanely stable and crisp.The whole apple environment itself is so seamless. I shifted from android to iPhone and it barely took any time since I had iPad and a mac already. With a just a few clicks the phone was ready to go.READ MORE'}, {'Product': 'i phone 14', 'Name': 'Samaresh  Tikader', 'Rating': '5', 'CommentHead': 'Fabulous!', 'Comment': 'Happy to have iPhone 14. Wonderful phone specially because of Powerful camera😍, perfect screen size and potentially battery life make it worthy.READ MORE'}, {'Product': 'i phone 14', 'Name': 'Feecon Behera', 'Rating': '5', 'CommentHead': 'Must buy!', 'Comment': 'Just awesome!!I switch to iPhone 14 from iPhone 12. The powerful chipset gives you smooth performance. No lags, no fancy UI, just delivers the best of it. Camera is best. Battery giving a full day. Speaker sounds wide and clear. Must buy!!READ MORE'}, {'Product': 'i phone 14', 'Name': 'Ashutosh Kumar', 'Rating': '5', 'CommentHead': 'Classy product', 'Comment': 'Great phone with great capabilities 🔥Excellent camera 📸Processor same as my 13pro New blue colour is awesome ❤️I have :- 14pro . 13pro . 12. 12mini . Also new this one iphone 14 . One thing is common in all have , there is no lag till the date. The one thing I always said it is what it is🔥🔥READ MORE'}, {'Product': 'i phone 14', 'Name': 'Sunder Singh ', 'Rating': '5', 'CommentHead': 'Highly recommended', 'Comment': 'I am so happy to have first time i phone 14. My experience is outstanding to have this phone.But i wanted to have i phone 18 fortunately i have this now.READ MORE'}, {'Product': 'i phone 14', 'Name': 'sagar dimble', 'Rating': '4', 'CommentHead': 'Nice product', 'Comment': 'camera is not as expected at evening as pictures are so dull and not bright.so much dissipointed when compare camera even with s21fe or one plus nord or other premium phones.at bright sunlight or in a bright light at night pictures are so good in portrait mode.selfies in low light are terrible. looks like camera under 10k phone.battery is good and last for day easily.performance is so good.display may be if 90hz it will be good at this price range.READ MORE'}, {'Product': 'i phone 14', 'Name': 'Kunal Dhamija', 'Rating': '5', 'CommentHead': 'Classy product', 'Comment': "Totally in love with my new iphone 14. Battery backup is amazing which I never expected from Apple to be very honest.Built quality is excellent and it looks premium. Camera quality is excellent as well. True to life color reproduction, Indoor conditions amazing, night photos are good, facial tones are very good, day clicks are amazing. In short it's an amazing exp. Selfie cam also produces very good quality images.READ MORE"}, {'Product': 'i phone 14', 'Name': 'out of reviewers', 'Rating': 'out of rating', 'CommentHead': 'Out of comments', 'Comment': 'Out of comment'}]
+2023-03-10 20:40:44,409,INFO,172.18.0.2 - - [10/Mar/2023 20:40:44] "POST /review HTTP/1.1" 200 -
+2023-03-10 20:40:44,537,INFO,172.18.0.2 - - [10/Mar/2023 20:40:44] "[33mGET /style.css HTTP/1.1[0m" 404 -
+2023-03-10 20:40:44,722,INFO,172.18.0.2 - - [10/Mar/2023 20:40:44] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-03-10 20:41:29,112,INFO,Homepage showed
+2023-03-10 20:41:29,112,INFO,172.18.0.2 - - [10/Mar/2023 20:41:29] "GET / HTTP/1.1" 200 -
+2023-03-10 20:41:29,211,INFO,172.18.0.2 - - [10/Mar/2023 20:41:29] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-03-10 20:41:29,220,INFO,172.18.0.2 - - [10/Mar/2023 20:41:29] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-03-10 20:41:34,353,INFO,Reviews need to scrap for i phone 12
+2023-03-10 20:41:35,947,INFO,out of reviewers
+2023-03-10 20:41:35,948,INFO,out of rating
+2023-03-10 20:41:35,948,INFO,Out of comments
+2023-03-10 20:41:35,948,INFO,Out of comment
+2023-03-10 20:41:35,948,INFO,The final data is: [{'Product': 'i phone 12', 'Name': 'Flipkart Customer', 'Rating': '5', 'CommentHead': 'Terrific', 'Comment': 'Wow superb camera phone Very smooth speed and no lag , iphone is the king always Its a beautiful productREAD MORE'}, {'Product': 'i phone 12', 'Name': 'Anurag Lad', 'Rating': '5', 'CommentHead': 'Perfect product!', 'Comment': 'The brand is very trustworthy and i got genuine pice at a very low cost.I ordered the green one and trust me the colour was amazing.All the colours but specifically green and purple are nice for look.Thanks to flipkart❤️READ MORE'}, {'Product': 'i phone 12', 'Name': 'Vishal Gandhi', 'Rating': '5', 'CommentHead': 'Terrific purchase', 'Comment': 'Awesome phone … value for money.. Happy with battery life.. Awesome camera features… look at the images snapped using the phone… easy to use.. Just feared about getting scratch at back glass… but using cover helped it…READ MORE'}, {'Product': 'i phone 12', 'Name': 'Athul Shabu', 'Rating': '5', 'CommentHead': 'Must buy!', 'Comment': 'Top class performance  and battery backup too. Charges quickly if u are using a 20w charger. Night mode is good , HDR mode works flawlessly. VFM phone.READ MORE'}, {'Product': 'i phone 12', 'Name': 'Flipkart Customer', 'Rating': '5', 'CommentHead': 'Awesome', 'Comment': 'Excellent product worth for every penny, writing this review after using 7 days, earlier was using iPhone 6Plus now on iPhone 12 😍, faster then anything this else.Excellent Picture quality.Just loved it.!!READ MORE'}, {'Product': 'i phone 12', 'Name': 'Ishu Kumar', 'Rating': '5', 'CommentHead': 'Mind-blowing purchase', 'Comment': 'Guys ,this is just Beast at Every Aspect of Configurations, Full Pack with What You want, Like Best Camera , Best Display, Best Battery for whole Day Use, And Everyone know About Processing Speed👌..READ MORE'}, {'Product': 'i phone 12', 'Name': 'Ayaz Ahmad', 'Rating': '5', 'CommentHead': 'Brilliant', 'Comment': "Almost 1month of purshase and i am loving it . Great for photography and videography and trust me the stability of video is awesome . High end performence in Gaming , the only problem is that it heats up a little while playing Bgmi but if u play in a AC room then there's no issue .The boxy look of iphone 12 is very good and it gives a premium feel while holding . worth buying . also if you are confused between iph 11 or iph12 then close your eyes and go for iphone 12 .READ MORE"}, {'Product': 'i phone 12', 'Name': 'Suddha Ram boro', 'Rating': '5', 'CommentHead': 'Awesome', 'Comment': "Thanks flipkart i trust you got my device perfectly loved it best phone in it's segmentREAD MORE"}, {'Product': 'i phone 12', 'Name': 'Vijaya Kurkute', 'Rating': '5', 'CommentHead': 'Highly recommended', 'Comment': 'Thanx flipkart for value super sale for short time period of 1hour😁, flipkart might need to work on faster deliveryIphone 12 which i got in best price on flipkart1. Camera performance - superb2. Display - superb3. Interface - AmazingREAD MORE'}, {'Product': 'i phone 12', 'Name': 'Indradav Sharma ', 'Rating': '5', 'CommentHead': 'Must buy!', 'Comment': 'I really m glad that i went for i phone in place of all other android devices like the Samsung S series nd one plus . Also , m amazed by the battery life in this i phone . Single charge and its last for a day easily ..Even the gaming experience was greatREAD MORE'}, {'Product': 'i phone 12', 'Name': 'out of reviewers', 'Rating': 'out of rating', 'CommentHead': 'Out of comments', 'Comment': 'Out of comment'}]
+2023-03-10 20:41:36,066,INFO,172.18.0.2 - - [10/Mar/2023 20:41:36] "POST /review HTTP/1.1" 200 -
+2023-03-10 20:41:36,189,INFO,172.18.0.2 - - [10/Mar/2023 20:41:36] "[33mGET /style.css HTTP/1.1[0m" 404 -
+2023-03-10 20:41:36,194,INFO,172.18.0.2 - - [10/Mar/2023 20:41:36] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-03-10 20:44:16,521,INFO,[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.18.0.15:8080
+2023-03-10 20:44:16,521,INFO,[33mPress CTRL+C to quit[0m
+2023-03-10 20:44:24,880,INFO,Homepage showed
+2023-03-10 20:44:24,887,INFO,172.18.0.2 - - [10/Mar/2023 20:44:24] "GET / HTTP/1.1" 200 -
+2023-03-10 20:44:24,999,INFO,172.18.0.2 - - [10/Mar/2023 20:44:24] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-03-10 20:44:25,062,INFO,172.18.0.2 - - [10/Mar/2023 20:44:25] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-03-10 20:44:29,940,INFO,Reviews need to scrap for iphone 13
+2023-03-10 20:44:31,485,INFO,out of reviewers
+2023-03-10 20:44:31,485,INFO,out of rating
+2023-03-10 20:44:31,485,INFO,Out of comments
+2023-03-10 20:44:31,485,INFO,Out of comment
+2023-03-10 20:44:31,486,INFO,The final data is: [{'Product': 'iphone 13', 'Name': 'Arnab Das', 'Rating': '5', 'CommentHead': 'Perfect product!', 'Comment': 'Awesome battery backup amazing camera, a all day batter backup  improved and brilliant IOs 16.1 oled display dolby speakers and lot more, just close your eyes and go for it. One of the best handy smartphones ever and in great discount given by flipkart in big billion days 🔥READ MORE'}, {'Product': 'iphone 13', 'Name': 'Flipkart Customer', 'Rating': '5', 'CommentHead': 'Excellent', 'Comment': 'I upgraded to 13 from xs and my experience with this had been extraordinary . The user interface and the camera is too good .Just in love with this extraordinary device .I just shared some photos clicked from this phone so that everyone can have an idea about how good the camera is compared all other flagship devices . The lens inside the device is so efficient that it  automatically reduces the noise in the picture making it very crisp and clear  .READ MORE'}, {'Product': 'iphone 13', 'Name': 'Mahim Chauhan', 'Rating': '5', 'CommentHead': 'Brilliant', 'Comment': 'I switch to ios from android after 10 years so this review might help for migratorsIt’s been a month using the iPhone13 and this was my experience1. Design - its simple and no nonsense design . Expect white and pink rest of the colours are fingerprint magnets.  I have seen all the colours and I highly recommend the pink . It’s so light pink which makes it not girlish. See it for yourself it really looks so premium in light pink colour. For rest of it except white the aluminium frame wil...READ MORE'}, {'Product': 'iphone 13', 'Name': 'Vaibhav  Raj', 'Rating': '5', 'CommentHead': 'Fabulous!', 'Comment': "Amazing beast....As expected , didn't disappoint me,Had to sell hard chunk of kidneys to get it !!;pCamera quality is definitely a super upgradeBattery is super.. easily last throughout the day with heavy usage.Light weight looks stylish what else you need??Starlight color just wow!!!Apple it would have been better if you should  have given an adaptor. Increase 2k price and give it in box!!!Simple ....Edit 1 : After 14 days of usage highly satisfied with battery performance, Last thr...READ MORE"}, {'Product': 'iphone 13', 'Name': 'Maharshi Pandey', 'Rating': '5', 'CommentHead': 'Fabulous!', 'Comment': 'Picture quality is amazing you do not need to think twice about buying this for performance and photos, just go for it. Bionic A 15 is super fast and it has amazing performance, It is specially good for gaming although battery backup is not that good if you are a heavy user,But if you are a light or medium user it will give you battery backup of whole day in one charge.READ MORE'}, {'Product': 'iphone 13', 'Name': 'Rajan Khan', 'Rating': '5', 'CommentHead': 'Simply awesome', 'Comment': 'Just love it ❤️Camera is good Night mode is killer Performance and display is best Face id is very fast Looks very premium in hand Just go for it without thinking too much !READ MORE'}, {'Product': 'iphone 13', 'Name': 'Vishal Dubey', 'Rating': '5', 'CommentHead': 'Must buy!', 'Comment': 'Just upgraded from 11 to iPhone 13 ..cinematic mode video awesome camera awesome display awesome Looks A1 battery life is also good.New filter mode in camera addedREAD MORE'}, {'Product': 'iphone 13', 'Name': 'sambit sahu', 'Rating': '5', 'CommentHead': 'Fabulous!', 'Comment': 'It’s my first ever ios device I kinda loving it total value for money. Best ever budget smart phone and thank you flipkart for delivering it in one  day.READ MORE'}, {'Product': 'iphone 13', 'Name': 'Flipkart Customer', 'Rating': '5', 'CommentHead': 'Perfect product!', 'Comment': 'Awesome camera Amazing battery life Super xdr display is 💕👌🏻Playing games and day to day task are smooth Face ID is superbiOS 15 is really awesome 🤩 thanks to AppleREAD MORE'}, {'Product': 'iphone 13', 'Name': 'Parwej  Alam', 'Rating': '5', 'CommentHead': 'Must buy!', 'Comment': 'Performance very good Display very good Battery good Look very goodREAD MORE'}, {'Product': 'iphone 13', 'Name': 'out of reviewers', 'Rating': 'out of rating', 'CommentHead': 'Out of comments', 'Comment': 'Out of comment'}]
+2023-03-10 20:44:31,603,INFO,172.18.0.2 - - [10/Mar/2023 20:44:31] "POST /review HTTP/1.1" 200 -
+2023-03-10 20:44:31,712,INFO,172.18.0.2 - - [10/Mar/2023 20:44:31] "[33mGET /style.css HTTP/1.1[0m" 404 -
+2023-03-10 20:44:31,835,INFO,172.18.0.2 - - [10/Mar/2023 20:44:31] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-03-10 20:49:24,851,INFO,[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.18.0.15:8080
+2023-03-10 20:49:24,851,INFO,[33mPress CTRL+C to quit[0m
